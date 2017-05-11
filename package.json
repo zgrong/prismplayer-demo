@@ -1,0 +1,19 @@
+{
+  "name": "ncwx-vue",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "zgrong <zhangfengguangrong@163.com>",
+  "private": true,
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js",
+    "deploy": "node build/build.deploy.js"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "express": "^4.14.1",
+    "express-session": "^1.15.1"
+  }
+}

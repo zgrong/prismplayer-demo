@@ -1,0 +1,21 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch Chrome against localhost",
+			"runtimeExecutable": "C:/Users/zgr/AppData/Local/Google/Chrome/Application/chrome.exe",
+			"runtimeArgs": ["--remote-debugging-port=9222"],
+			"url": "http://localhost:8086",
+			"webRoot": "${workspaceRoot}"
+		},
+		{
+			"type": "chrome",
+			"request": "attach",
+			"name": "Attach to Chrome",
+			"port": 9222,
+			"webRoot": "${workspaceRoot}"
+		}
+	]
+}
